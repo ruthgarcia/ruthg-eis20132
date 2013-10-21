@@ -1,0 +1,18 @@
+Las capas (Layers) se ocupan de la división lógica de componentes y funcionalidad.
+Por lo regular las 3 capas son:
+
+Presentación: Recibe eventos del usuario a través de la interfaz presentada y también formatea los resultados a desplegar.
+
+Negocio: o también Lógica de Dominio, el dominio del problema de negocio por el cual se realizó la aplicación.
+
+Acceso a Datos: En esta capa hay lógica que lleva y trae información entre la capa de negocio y los repositorios o sistemas externos donde los datos se almacenan. 
+
+Por el contrario, los Niveles (Tiers) se ocupan de la  distribución física de componentes y funcionalidad en servidores separados, teniendo en cuenta la topología de redes y localizaciones remotas.
+
+Así, las partes son:
+
+Cliente o Front-End: Engloba la infraestructura de hardware y software donde se ejecuta la interfaz de usuario. También se suele referir a ellos como Canales.
+
+Middleware: Es capaz de recibir a través de la red, y mediante uno o varios  protocolos de transporte (HTTP, TCP, etc), uno o varios protocolos de mensajes  (XML, SOAP, propietarios, etc) requerimientos desde los distintos canales.
+
+Back-End: Normalmente una base de datos, aunque definitivamente puede ser otro proceso, incluso mucho más complejo que la misma aplicación entera. 

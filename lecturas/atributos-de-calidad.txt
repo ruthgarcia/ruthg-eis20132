@@ -1,0 +1,16 @@
+ESCALABILIDAD
+
+Es un término usado en tecnología para referirse a la propiedad de aumentar la capacidad de trabajo o de tamaño de un sistema sin comprometer su funcionamiento y calidad normales. Cuando un sistema tiene esta propiedad, se le refiere comúnmente como "sistema escalable". La escalabilidad esta íntimamente ligada al diseño del sistema. Influye en el rendimiento de forma significativa. 
+
+Si una aplicación esta bien diseñada, la escalabilidad no constituye un problema. 
+Analizando la escalabilidad, se deduce de la implementación y del diseño general del sistema. 
+
+La escalabilidad supone un factor crítico en el crecimiento de un sistema. Si un sistema tiene como objetivo crecer en el numero de usuarios manteniendo su rendimiento actual, tiene que evaluar dos posibles opciones:
+
+    Con un hardware de mayor potencia o
+    Con una mejor combinación de hardware y software.
+
+Se pueden distinguir dos tipos de escalabilidad, vertical y horizontal:
+
+    El escalar verticalmente o escalar hacia arriba, significa el añadir más recursos a un solo nodo en particular dentro de un sistema, tal como el añadir memoria o un disco duro más rápido a una computadora.
+    La escalabilidad horizontal, significa agregar más nodos a un sistema, tal como añadir una computadora nueva a un programa de aplicación para espejo.
