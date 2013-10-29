@@ -1,9 +1,0 @@
----
-:orm: datamapper
-:test: rspec
-:mock: none
-:script: jquery
-:renderer: slim
-:stylesheet: none
-:namespace: JobVacancy
-:migration_format: number
